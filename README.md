@@ -10,7 +10,7 @@
 ## Descrição do Repositorio (Description of the Repository)
 
 #### -	Sistema Loucademia
--	Este projeto está sendo desenvolvido como parte prática do "Curso Mão no Código: Loucademia", oferecido pela empresa Softblue https://www.softblue.com.br .
+-	Este projeto está sendo desenvolvido como parte prática do "Curso Mão no Código: Loucademia", oferecido pela empresa [Softblue](https://www.softblue.com.br).
 	
 #### -	Hard Skills:
 -	Back-end:
