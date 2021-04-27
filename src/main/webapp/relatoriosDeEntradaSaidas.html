@@ -1,0 +1,90 @@
+<!-- Cabeçalho início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Loucademia</title>
+	</head>
+	<body>
+		<header>
+			<img alt="Logotipo Loucademia" src="images/Loucademia_Logotipo.png">
+			<nav>
+				<div>
+					<a href= "novoAluno.html">Novo aluno</a><br>
+					<a href= "pesquisaDeAluno.html">Pesquisa de aluno</a><br>
+					<a href= "controleDeAcesso.html">Controle de acesso</a><br>
+					<a href= "relatoriosDeEntradaSaidas.html">Relatórios de Entradas e Saídas</a><br>
+					<a href= "relatoriosDeSituacoes.html">Relatórios de Situações</a><br>
+				</div>
+			</nav>
+		</header>
+		<!-- Cabeçalho fim -->
+		
+		<h1>Relatório de Entrada e Saída</h1>
+		
+		<div id="infoMessage">
+			(Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+		</div>
+		
+		<br>
+		
+		<form>
+			<fieldset>				
+				<legend>Parâmetros de Entradas e Saídas</legend>
+				<label for="id">ID</label><br>
+				<input type="text" name="id" id="id"><br>
+				<label for="dataInicial">Data início</label><br>
+				<input type="date" name="dataInicial" id="dataInicial"><br>
+				<label for="dataFinal" >Data fim</label><br>		
+				<input type="date" name="dataFinal" id="dataFinal">			
+			</fieldset>
+		
+			<br>
+			
+			<input type="submit" value="Gerar relatório">
+		</form>	
+		
+			<br>
+			
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>Nome</th>
+					<th>Entrada</th>
+					<th>Saída</th>
+					<th>Duração</th>	
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Isaac</td>
+					<td>27/04/2021 09:00:00</td>
+					<td>27/04/2021 10:00:00</td>
+					<td>01:00:00</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Noelia</td>
+					<td>27/04/2021 09:00:00</td>
+					<td>27/04/2021 09:10:00</td>
+					<td>00:10:00</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Luciana</td>
+					<td>27/04/2021 09:00:00</td>
+					<td>27/04/2021 10:30:00</td>
+					<td>01:30:00</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Celi</td>
+					<td>27/04/2021 09:00:00</td>
+					<td>27/04/2021 09:30:00</td>
+					<td>00:30:00</td>
+				</tr>
+			</table>
+			
+	<!-- Rodapé início -->
+	</body>
+</html>
+<!-- Rodapé fim -->
