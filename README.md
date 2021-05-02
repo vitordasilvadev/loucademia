@@ -15,7 +15,7 @@
 #### -	Hard Skills:
 -	Back-end:
 	-	JAVA
-	-	JS
+	-	JSF
 	-	JPA
 	-	WildFly
 	-	MySQL
